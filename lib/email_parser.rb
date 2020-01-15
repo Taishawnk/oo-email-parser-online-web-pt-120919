@@ -9,6 +9,7 @@ class EmailAddressParser
 @email
 def initialize(email)
 @email=email.split(/,?\s/).uniq
+#binding.pry
 end
 
 def parse
